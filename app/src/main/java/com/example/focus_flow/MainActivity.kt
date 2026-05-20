@@ -1,4 +1,4 @@
-//package com.example.focus_flow
+package com.example.focus_flow
 //
 //import android.os.Bundle
 //import androidx.activity.ComponentActivity
@@ -47,7 +47,7 @@
 //}
 
 
-package com.focusflow
+//package com.focusflow
 
 import android.app.Application
 import android.app.NotificationChannel
