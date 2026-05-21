@@ -7,7 +7,7 @@ package com.example.focusflow.data.database.dao
 //package com.focusflow.data.database.dao
 
 import androidx.room.*
-import com.focusflow.data.database.entities.StudyTaskEntity
+import com.example.focusflow.data.database.entities.StudyTaskEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao

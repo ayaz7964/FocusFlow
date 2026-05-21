@@ -6,7 +6,7 @@ package com.example.focusflow.data.database.dao
 //package com.focusflow.data.database.dao
 
 import androidx.room.*
-import com.focusflow.data.database.entities.FocusSessionEntity
+import com.example.focusflow.data.database.entities.FocusSessionEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -21,7 +21,7 @@ interface FocusSessionDao {
     suspend fun getTotalFocusSince(startDate: Long): Int
 
     @Query("SELECT date, SUM(duration) as total FROM focus_sessions GROUP BY date ORDER BY date DESC LIMIT 7")
-    fun getWeeklyFocus(): Flow<List<DailyFocus>>
+    fun getWeeklyFocus(): Flow<DailyFocus>
 
     data class DailyFocus(val date: Long, val total: Int)
 }

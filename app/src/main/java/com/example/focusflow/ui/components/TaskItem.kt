@@ -10,8 +10,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.focusflow.data.database.entities.StudyTaskEntity
-import com.focusflow.utils.DateUtils
+import com.example.focusflow.data.database.entities.StudyTaskEntity
+import com.example.focusflow.utils.DateUtils
 
 @Composable
 fun TaskItem(task: StudyTaskEntity, onClick: () -> Unit) {

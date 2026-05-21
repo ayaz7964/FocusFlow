@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import com.focusflow.utils.DateUtils
+import com.example.focusflow.utils.DateUtils
 import java.util.Calendar
 
 @Composable

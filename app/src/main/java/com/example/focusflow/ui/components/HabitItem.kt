@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.focusflow.data.database.entities.HabitEntity
+import com.example.focusflow.data.database.entities.HabitEntity
 
 @Composable
 fun HabitItem(habit: HabitEntity, onCheckedChange: (Boolean) -> Unit) {

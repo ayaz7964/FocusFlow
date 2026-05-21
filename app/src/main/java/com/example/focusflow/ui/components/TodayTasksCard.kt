@@ -7,11 +7,12 @@ package com.example.focusflow.ui.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Card
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.focusflow.data.database.entities.StudyTaskEntity
+import com.example.focusflow.data.database.entities.StudyTaskEntity
 
 @Composable
 fun TodayTasksCard(tasks: List<StudyTaskEntity>, onTaskClick: (Int) -> Unit) {

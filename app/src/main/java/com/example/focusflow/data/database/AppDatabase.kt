@@ -10,9 +10,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.focusflow.data.database.converters.Converters
-import com.focusflow.data.database.dao.*
-import com.focusflow.data.database.entities.*
+import com.example.focusflow.data.database.converters.Converters
+import com.example.focusflow.data.database.dao.*
+import com.example.focusflow.data.database.entities.*
 
 @Database(
     entities = [StudyTaskEntity::class, HabitEntity::class, FocusSessionEntity::class],

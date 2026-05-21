@@ -7,7 +7,7 @@ package com.example.focusflow.notifications
 
 import android.content.Context
 import androidx.work.*
-import com.focusflow.workers.TaskReminderWorker
+import com.example.focusflow.workers.TaskReminderWorker
 import java.util.concurrent.TimeUnit
 
 class ReminderScheduler(private val context: Context) {

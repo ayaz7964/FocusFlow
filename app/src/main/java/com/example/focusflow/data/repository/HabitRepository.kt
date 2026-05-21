@@ -5,8 +5,8 @@ package com.example.focusflow.data.repository
 
 //package com.focusflow.data.repository
 
-import com.focusflow.data.database.dao.HabitDao
-import com.focusflow.data.database.entities.HabitEntity
+import com.example.focusflow.data.database.dao.HabitDao
+import com.example.focusflow.data.database.entities.HabitEntity
 import kotlinx.coroutines.flow.Flow
 
 class HabitRepository(private val habitDao: HabitDao) {

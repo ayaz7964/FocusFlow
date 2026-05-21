@@ -11,7 +11,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.focusflow.ui.navigation.Screen
+import com.example.focusflow.ui.navigation.Screen
 
 @Composable
 fun BottomNavigationBar(navController: NavController) {
